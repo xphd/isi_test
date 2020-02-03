@@ -1,0 +1,26 @@
+{
+    "pipeline_rank": 2.142023346303502,
+    "metric": "accuracy",
+    "metric_value": 0.46684831970935514,
+    "cross_validation": [
+        {
+            "metric": "accuracy",
+            "value": 0.4681934838929326,
+            "values": [
+                0.46799818429414436,
+                0.46890603722197005,
+                0.46954545454545454,
+                0.465,
+                0.4695177434030937
+            ],
+            "targets": []
+        }
+    ],
+    "template_name": "default_text_classification_template",
+    "template_task": "CLASSIFICATION",
+    "template_subtask": "{'MULTICLASS', 'BINARY'}",
+    "problem_task_keywords": [
+        "classification",
+        "multiClass"
+    ]
+}

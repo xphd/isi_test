@@ -1,0 +1,12 @@
+{
+    "pipeline_rank": 1.7043343653250773,
+    "metric": "accuracy",
+    "metric_value": 0.5867393278837421,
+    "template_name": "Large_column_number_with_numerical_only_classification",
+    "template_task": "CLASSIFICATION",
+    "template_subtask": "{'MULTICLASS', 'BINARY'}",
+    "problem_task_keywords": [
+        "classification",
+        "multiClass"
+    ]
+}

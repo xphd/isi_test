@@ -1,0 +1,1974 @@
+2020-02-03 04:53:49 [INFO] dsbox.controller.controller -- Top level output directory: /output
+2020-02-03 04:53:49 [INFO] dsbox.controller.controller -- Recevied config problem is:
+2020-02-03 04:53:49 [INFO] dsbox.controller.controller -- [{'dataset_id': 'DA_global_terrorism_dataset', 'targets': [{'target_index': 0, 'resource_id': 'learningData', 'column_index': 4, 'column_name': 'activity_level'}]}]
+2020-02-03 04:53:49 [INFO] dsbox.controller.controller -- Type of temp is <class 'list'>
+2020-02-03 04:53:49 [INFO] dsbox.controller.controller -- length of temp is1
+2020-02-03 04:53:49 [INFO] dsbox.controller.controller -- inside temp is [{'dataset_id': 'DA_global_terrorism_dataset', 'targets': [{'target_index': 0, 'resource_id': 'learningData', 'column_index': 4, 'column_name': 'activity_level'}]}]
+2020-02-03 04:53:49 [INFO] dsbox.controller.controller -- {'dataset_id': 'DA_global_terrorism_dataset', 'targets': [{'target_index': 0, 'resource_id': 'learningData', 'column_index': 4, 'column_name': 'activity_level'}]}
+2020-02-03 04:53:49 [INFO] dsbox.controller.controller -- processing: {'dataset_id': 'DA_global_terrorism_dataset', 'targets': [{'target_index': 0, 'resource_id': 'learningData', 'column_index': 4, 'column_name': 'activity_level'}]}
+2020-02-03 04:53:50 [ERROR] dsbox.template.template_steps -- Hyperparameter not valid for d3m.primitives.link_prediction.graph_matching_link_prediction.GraphMatchingLinkPrediction!
+2020-02-03 04:53:50 [INFO] dsbox.template.library -- DSBoxTemplate:default_classification_template has been added to template base.
+2020-02-03 04:53:50 [INFO] dsbox.template.library -- DSBoxTemplate:naive_bayes_classification_template has been added to template base.
+2020-02-03 04:53:50 [INFO] dsbox.template.library -- DSBoxTemplate:alternative_classification_template has been added to template base.
+2020-02-03 04:53:50 [INFO] dsbox.template.library -- DSBoxTemplate:default_text_classification_template has been added to template base.
+2020-02-03 04:53:50 [INFO] dsbox.template.library -- DSBoxTemplate:TA1Classification_3 has been added to template base.
+2020-02-03 04:53:50 [INFO] dsbox.template.library -- DSBoxTemplate:Distil_acled_problem_template has been added to template base.
+2020-02-03 04:53:50 [INFO] dsbox.template.library -- DSBoxTemplate:CMU_acled_problem_template has been added to template base.
+2020-02-03 04:53:50 [INFO] dsbox.template.library -- DSBoxTemplate:Default_timeseries_collection_template has been added to template base.
+2020-02-03 04:53:50 [INFO] dsbox.template.library -- DSBoxTemplate:Large_column_number_with_numerical_only_classification has been added to template base.
+2020-02-03 04:53:50 [INFO] dsbox.template.library -- DSBoxTemplate:classification_with_feature_selection has been added to template base.
+2020-02-03 04:53:50 [INFO] dsbox.template.library -- DSBoxTemplate:dsbox_classification_template has been added to template base.
+2020-02-03 04:53:50 [INFO] dsbox.datapreprocessing.cleaner.splitter -- This dataset's size is OK, no split on dataset needed.
+2020-02-03 04:53:50 [INFO] dsbox.datapreprocessing.cleaner.splitter -- The input dataset's main resource shape is: (11004, 5)
+2020-02-03 04:53:50 [INFO] dsbox.datapreprocessing.cleaner.splitter -- No sampling need.
+2020-02-03 04:53:50 [INFO] dsbox.controller.controller -- given task tpye is ['CLASSIFICATION', 'MULTICLASS']
+2020-02-03 04:53:50 [INFO] dsbox.controller.controller -- given data tpye is {'table'}
+2020-02-03 04:53:50 [INFO] dsbox.controller.controller -- Summary: Can we split this dataset: False
+2020-02-03 04:53:50 [INFO] dsbox.controller.controller -- split start!
+2020-02-03 04:53:50 [INFO] dsbox.controller.controller -- split done!
+2020-02-03 04:53:50 [INFO] dsbox.controller.controller -- split start!
+2020-02-03 04:53:50 [INFO] dsbox.controller.controller -- split done!
+2020-02-03 04:53:50 [WARNING] dsbox.JobManager.usage_monitor -- Start recording the usage of the resources!
+2020-02-03 04:53:50 [INFO] dsbox.JobManager.usage_monitor -- Current totally 0 pids are in target list.
+2020-02-03 04:53:50 [INFO] dsbox.JobManager.usage_monitor -- set()
+2020-02-03 04:53:50 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Validation mode: Cross Validation
+2020-02-03 04:53:50 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Validation mode: Cross Validation
+2020-02-03 04:53:50 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Validation mode: Cross Validation
+2020-02-03 04:53:50 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Validation mode: Cross Validation
+2020-02-03 04:53:50 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Validation mode: Cross Validation
+2020-02-03 04:53:50 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Validation mode: Cross Validation
+2020-02-03 04:53:50 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 30984.398636733 > 30983.252376426 + 558
+2020-02-03 04:53:50 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:53:50 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-9060265322908762322)
+2020-02-03 04:53:50 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -9060265322908762322
+2020-02-03 04:53:50 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 30984.412607124 > 30983.252376426 + 558
+2020-02-03 04:53:50 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template CMU_acled_problem_template -9060265322908762322
+2020-02-03 04:53:51 [INFO] summa.preprocessing.cleaner -- 'pattern' package not found; tag filters are not available for English
+2020-02-03 04:53:51 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:53:51 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 208, in _evaluate
+    pipeline = self.template.to_pipeline(configuration)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/template.py", line 135, in to_pipeline
+    binding, sequence = self.add_intermediate_type_casting(ioconf)
+TypeError: 'int' object is not iterable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 186, in evaluate_pipeline
+    raise PipelineInstantiationError(f'Not able to create pipeline from template {self.template.template["name"]}.') from exc
+dsbox.exceptions.PipelineInstantiationError: Not able to create pipeline from template CMU_acled_problem_template.
+
+2020-02-03 04:53:51 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate -9060265322908762322
+2020-02-03 04:53:51 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-9060265322908762322)
+2020-02-03 04:53:51 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 30985.54288645 > 30983.252376426 + 558
+2020-02-03 04:53:51 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:classification_with_feature_selection
+2020-02-03 04:53:51 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7084936121280317218)
+2020-02-03 04:53:51 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7084936121280317218
+2020-02-03 04:53:51 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 30985.545682952 > 30983.252376426 + 558
+2020-02-03 04:53:51 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template classification_with_feature_selection -7084936121280317218
+2020-02-03 04:53:51 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Will use normal train-test mode (n=1) to choose best primitives.
+2020-02-03 04:53:52 [INFO] numexpr.utils -- NumExpr defaulting to 4 threads.
+2020-02-03 04:53:52 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:53:52 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:53:52 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:53:54 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:53:54 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:53:54 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:53:54 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:53:55 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:53:55 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:53:55 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:53:55 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:53:55 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:53:56 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/sklearn/feature_selection/base.py:79: UserWarning: No features were selected: either the data is too noisy or the selection test too strict.
+2020-02-03 04:53:56 [ERROR] redirect --   UserWarning)
+2020-02-03 04:53:56 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:classification_with_feature_selection
+2020-02-03 04:53:56 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/src/d3m/d3m/runtime.py", line 941, in _do_run_step
+    self._run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 931, in _run_step
+    self._run_primitive(step)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 266, in _run_primitive
+    multi_call_result = self._call_primitive_method(primitive.fit_multi_produce, fit_multi_produce_arguments)
+  File "/src/d3m/d3m/runtime.py", line 914, in _call_primitive_method
+    raise error
+  File "/src/d3m/d3m/runtime.py", line 910, in _call_primitive_method
+    result = method(**arguments)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 529, in fit_multi_produce
+    return self._fit_multi_produce(produce_methods=produce_methods, timeout=timeout, iterations=iterations, inputs=inputs, outputs=outputs)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 565, in _fit_multi_produce
+    produce_results = self._multi_produce(produce_methods=produce_methods, timeout=timeout, iterations=iterations, **kwargs)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 461, in _multi_produce
+    results.append(getattr(self, method_name)(timeout=timeout, iterations=iterations, **arguments))
+  File "/user_opt/dsbox/src/sklearn-wrap/sklearn_wrap/SKGenericUnivariateSelect.py", line 249, in produce
+    columns_list=output)
+  File "/src/d3m/d3m/base/utils.py", line 117, in combine_columns
+    raise ValueError("No columns produced.")
+ValueError: No columns produced.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 528, in _evaluate
+    fitted_pipeline2.fit(cache=cache, inputs=[self.train_dataset1], save_loc=self.output_directory)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/pipeline/fitted_pipeline.py", line 276, in fit
+    fit_result = self.runtime.fit(inputs, **arguments)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 860, in fit
+    self.check_results(self.fit_outputs)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 881, in check_results
+    raise res.error
+  File "/src/d3m/d3m/runtime.py", line 972, in _run
+    self._do_run()
+  File "/src/d3m/d3m/runtime.py", line 958, in _do_run
+    self._do_run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 950, in _do_run_step
+    ) from error
+d3m.exceptions.StepFailedError: Step 10 for pipeline b373273f-651b-4bb8-8c86-4033cd3e8aea failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 189, in evaluate_pipeline
+    raise PipelineEvaluationError(f'Not able to evaluate pipeline created from template {self.template.template["name"]}') from exc
+dsbox.exceptions.PipelineEvaluationError: Not able to evaluate pipeline created from template classification_with_feature_selection
+
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate -7084936121280317218
+2020-02-03 04:53:56 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-7084936121280317218)
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 30990.075495291 > 30983.252376426 + 558
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:53:56 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4240667707781953419)
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4240667707781953419
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 30990.083942826 > 30983.252376426 + 558
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template CMU_acled_problem_template 4240667707781953419
+2020-02-03 04:53:56 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:53:56 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 208, in _evaluate
+    pipeline = self.template.to_pipeline(configuration)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/template.py", line 135, in to_pipeline
+    binding, sequence = self.add_intermediate_type_casting(ioconf)
+TypeError: 'int' object is not iterable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 186, in evaluate_pipeline
+    raise PipelineInstantiationError(f'Not able to create pipeline from template {self.template.template["name"]}.') from exc
+dsbox.exceptions.PipelineInstantiationError: Not able to create pipeline from template CMU_acled_problem_template.
+
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate 4240667707781953419
+2020-02-03 04:53:56 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (4240667707781953419)
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 30990.113338444 > 30983.252376426 + 558
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:naive_bayes_classification_template
+2020-02-03 04:53:56 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (9081313933694046973)
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 9081313933694046973
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 30990.115124601 > 30983.252376426 + 558
+2020-02-03 04:53:56 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template naive_bayes_classification_template 9081313933694046973
+2020-02-03 04:53:57 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:53:57 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:53:57 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:53:57 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:53:57 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:53:57 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:53:57 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:00 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:00 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- CV finish
+2020-02-03 04:54:00 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:54:00 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:00 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:01 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:01 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:01 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:01 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:01 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:03 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:03 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:03 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:03 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:03 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:03 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:03 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:03 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:03 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:03 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Training final pipeline with all dataset and saving the pipeline.
+2020-02-03 04:54:04 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:04 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:04 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:04 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:04 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:04 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:04 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:07 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:07 [INFO] dsbox.pipeline.fitted_pipeline -- Primitive Denormalize has been added to pipeline.
+2020-02-03 04:54:07 [INFO] dsbox.pipeline.fitted_pipeline -- Saving pickle files of pipeline cd4030d7-2092-4d70-a41e-43ec74480997 finished.
+2020-02-03 04:54:07 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:07 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:07 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:07 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:07 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:07 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:07 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:07 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Test pickled pipeline. id: cd4030d7-2092-4d70-a41e-43ec74480997
+2020-02-03 04:54:08 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:08 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:08 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:08 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:08 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:08 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:08 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:08 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:08 [WARNING] dsbox.pipeline.fitted_pipeline -- File exists! /output/pipelines_status/produce_cd4030d7-2092-4d70-a41e-43ec74480997_status_0.json
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- END Evaluation of template naive_bayes_classification_template 9081313933694046973 in <_MainProcess(MainProcess, started)>
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline SUCCEEDED DSBoxTemplate:naive_bayes_classification_template
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- report fitted_pipeline fa543fb2-568e-424a-bf0d-d265c5f924f4
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=fa543fb2-568e-424a-bf0d-d265c5f924f4
+2020-02-03 04:54:08 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (9081313933694046973)
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31002.606839177 > 30983.252376426 + 558
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:54:08 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-4982186132741959889)
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -4982186132741959889
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31002.615974497 > 30983.252376426 + 558
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template CMU_acled_problem_template -4982186132741959889
+2020-02-03 04:54:08 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:54:08 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 208, in _evaluate
+    pipeline = self.template.to_pipeline(configuration)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/template.py", line 135, in to_pipeline
+    binding, sequence = self.add_intermediate_type_casting(ioconf)
+TypeError: 'int' object is not iterable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 186, in evaluate_pipeline
+    raise PipelineInstantiationError(f'Not able to create pipeline from template {self.template.template["name"]}.') from exc
+dsbox.exceptions.PipelineInstantiationError: Not able to create pipeline from template CMU_acled_problem_template.
+
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate -4982186132741959889
+2020-02-03 04:54:08 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-4982186132741959889)
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31002.647829609 > 30983.252376426 + 558
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:default_classification_template
+2020-02-03 04:54:08 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1375163153118175284)
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1375163153118175284
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31002.665960663 > 30983.252376426 + 558
+2020-02-03 04:54:08 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template default_classification_template -1375163153118175284
+2020-02-03 04:54:09 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:09 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:09 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:09 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:09 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:09 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:09 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:18 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:18 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- CV finish
+2020-02-03 04:54:18 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:54:19 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:19 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:19 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:19 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:19 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:19 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:19 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:28 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:28 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:28 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:28 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:28 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:28 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:28 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:28 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:28 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:29 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Training final pipeline with all dataset and saving the pipeline.
+2020-02-03 04:54:29 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:29 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:29 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:30 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:30 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:30 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:30 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:39 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:40 [INFO] dsbox.pipeline.fitted_pipeline -- Primitive Denormalize has been added to pipeline.
+2020-02-03 04:54:40 [INFO] dsbox.pipeline.fitted_pipeline -- Saving pickle files of pipeline 564e8243-8bb8-418f-86c8-73889434c6ab finished.
+2020-02-03 04:54:40 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:40 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:40 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:40 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:40 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:40 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:40 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:40 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:40 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Test pickled pipeline. id: 564e8243-8bb8-418f-86c8-73889434c6ab
+2020-02-03 04:54:41 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:41 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:41 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:41 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:41 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:41 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:41 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:41 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:41 [WARNING] dsbox.pipeline.fitted_pipeline -- File exists! /output/pipelines_status/produce_564e8243-8bb8-418f-86c8-73889434c6ab_status_0.json
+2020-02-03 04:54:41 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- END Evaluation of template default_classification_template -1375163153118175284 in <_MainProcess(MainProcess, started)>
+2020-02-03 04:54:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline SUCCEEDED DSBoxTemplate:default_classification_template
+2020-02-03 04:54:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- report fitted_pipeline 541f4355-88a0-475e-a7c6-9382978656a3
+2020-02-03 04:54:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=541f4355-88a0-475e-a7c6-9382978656a3
+2020-02-03 04:54:41 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-1375163153118175284)
+2020-02-03 04:54:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31035.381424703 > 30983.252376426 + 558
+2020-02-03 04:54:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:default_classification_template
+2020-02-03 04:54:41 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-3706067234927422420)
+2020-02-03 04:54:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -3706067234927422420
+2020-02-03 04:54:41 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31035.399072282 > 30983.252376426 + 558
+2020-02-03 04:54:41 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template default_classification_template -3706067234927422420
+2020-02-03 04:54:42 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:42 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:42 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:42 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:42 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:42 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:42 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:46 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:46 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- CV finish
+2020-02-03 04:54:46 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:54:46 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:46 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:47 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:47 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:47 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:47 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:47 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:51 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:51 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:51 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:51 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:51 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:51 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:51 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:51 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:51 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:51 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Training final pipeline with all dataset and saving the pipeline.
+2020-02-03 04:54:52 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:52 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:52 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:52 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:52 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:52 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:52 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:56 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:57 [INFO] dsbox.pipeline.fitted_pipeline -- Primitive Denormalize has been added to pipeline.
+2020-02-03 04:54:57 [INFO] dsbox.pipeline.fitted_pipeline -- Saving pickle files of pipeline b12eb82c-953c-4ee5-b2e3-1023c4f3b96e finished.
+2020-02-03 04:54:57 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:57 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:57 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:57 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:57 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:57 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:57 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:57 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:57 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Test pickled pipeline. id: b12eb82c-953c-4ee5-b2e3-1023c4f3b96e
+2020-02-03 04:54:58 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:58 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:58 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:58 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:58 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:58 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:58 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:54:58 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:54:58 [WARNING] dsbox.pipeline.fitted_pipeline -- File exists! /output/pipelines_status/produce_b12eb82c-953c-4ee5-b2e3-1023c4f3b96e_status_0.json
+2020-02-03 04:54:58 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- END Evaluation of template default_classification_template -3706067234927422420 in <_MainProcess(MainProcess, started)>
+2020-02-03 04:54:58 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline SUCCEEDED DSBoxTemplate:default_classification_template
+2020-02-03 04:54:58 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- report fitted_pipeline 8baf2a5f-8dba-4792-9b85-df4a8fb2a5b3
+2020-02-03 04:54:58 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=8baf2a5f-8dba-4792-9b85-df4a8fb2a5b3
+2020-02-03 04:54:58 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-3706067234927422420)
+2020-02-03 04:54:58 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31052.505217947 > 30983.252376426 + 558
+2020-02-03 04:54:58 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:naive_bayes_classification_template
+2020-02-03 04:54:58 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (693362870019214058)
+2020-02-03 04:54:58 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 693362870019214058
+2020-02-03 04:54:58 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31052.507049902 > 30983.252376426 + 558
+2020-02-03 04:54:58 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template naive_bayes_classification_template 693362870019214058
+2020-02-03 04:54:59 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:54:59 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:54:59 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:54:59 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5191: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:59 [ERROR] redirect --   object.__getattribute__(self, name)
+2020-02-03 04:54:59 [ERROR] redirect -- /usr/local/lib/python3.6/dist-packages/pandas/core/generic.py:5192: FutureWarning: Attribute 'is_copy' is deprecated and will be removed in a future version.
+2020-02-03 04:54:59 [ERROR] redirect --   return object.__setattr__(self, name, value)
+2020-02-03 04:55:01 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:naive_bayes_classification_template
+2020-02-03 04:55:01 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/src/d3m/d3m/runtime.py", line 941, in _do_run_step
+    self._run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 931, in _run_step
+    self._run_primitive(step)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 266, in _run_primitive
+    multi_call_result = self._call_primitive_method(primitive.fit_multi_produce, fit_multi_produce_arguments)
+  File "/src/d3m/d3m/runtime.py", line 914, in _call_primitive_method
+    raise error
+  File "/src/d3m/d3m/runtime.py", line 910, in _call_primitive_method
+    result = method(**arguments)
+  File "/src/d3m/d3m/primitive_interfaces/unsupervised_learning.py", line 49, in fit_multi_produce
+    return self._fit_multi_produce(produce_methods=produce_methods, timeout=timeout, iterations=iterations, inputs=inputs)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 556, in _fit_multi_produce
+    fit_result = self.fit(timeout=timeout, iterations=iterations)
+  File "/user_opt/dsbox/src/sklearn-wrap/sklearn_wrap/SKPCA.py", line 239, in fit
+    self._clf.fit(self._training_inputs)
+  File "/usr/local/lib/python3.6/dist-packages/sklearn/decomposition/pca.py", line 341, in fit
+    self._fit(X)
+  File "/usr/local/lib/python3.6/dist-packages/sklearn/decomposition/pca.py", line 407, in _fit
+    return self._fit_full(X, n_components)
+  File "/usr/local/lib/python3.6/dist-packages/sklearn/decomposition/pca.py", line 426, in _fit_full
+    % (n_components, min(n_samples, n_features)))
+ValueError: n_components=25 must be between 0 and min(n_samples, n_features)=23 with svd_solver='full'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 278, in _evaluate
+    fitted_pipeline.fit(cache=cache, inputs=[self.train_dataset1], save_loc=self.output_directory)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/pipeline/fitted_pipeline.py", line 276, in fit
+    fit_result = self.runtime.fit(inputs, **arguments)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 860, in fit
+    self.check_results(self.fit_outputs)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 881, in check_results
+    raise res.error
+  File "/src/d3m/d3m/runtime.py", line 972, in _run
+    self._do_run()
+  File "/src/d3m/d3m/runtime.py", line 958, in _do_run
+    self._do_run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 950, in _do_run_step
+    ) from error
+d3m.exceptions.StepFailedError: Step 10 for pipeline 563b75a6-df64-4816-9fe7-d9cabe3741f6 failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 189, in evaluate_pipeline
+    raise PipelineEvaluationError(f'Not able to evaluate pipeline created from template {self.template.template["name"]}') from exc
+dsbox.exceptions.PipelineEvaluationError: Not able to evaluate pipeline created from template naive_bayes_classification_template
+
+2020-02-03 04:55:01 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate 693362870019214058
+2020-02-03 04:55:01 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (693362870019214058)
+2020-02-03 04:55:01 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31055.24294153 > 30983.252376426 + 558
+2020-02-03 04:55:01 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:Default_timeseries_collection_template
+2020-02-03 04:55:01 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-7170700281125015907)
+2020-02-03 04:55:01 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -7170700281125015907
+2020-02-03 04:55:01 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31055.255711215 > 30983.252376426 + 558
+2020-02-03 04:55:01 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template Default_timeseries_collection_template -7170700281125015907
+2020-02-03 04:55:01 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Will use normal train-test mode (n=1) to choose best primitives.
+2020-02-03 04:55:01 [INFO] dsbox.datapreprocessing.featurizer.timeseries.timeseries_to_list -- Warning: Can't find timeseries index!
+2020-02-03 04:55:01 [INFO] dsbox.datapreprocessing.featurizer.timeseries.timeseries_to_list -- No timeseries dataset detected!
+2020-02-03 04:55:02 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:Default_timeseries_collection_template
+2020-02-03 04:55:02 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/src/d3m/d3m/runtime.py", line 941, in _do_run_step
+    self._run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 931, in _run_step
+    self._run_primitive(step)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 266, in _run_primitive
+    multi_call_result = self._call_primitive_method(primitive.fit_multi_produce, fit_multi_produce_arguments)
+  File "/src/d3m/d3m/runtime.py", line 914, in _call_primitive_method
+    raise error
+  File "/src/d3m/d3m/runtime.py", line 910, in _call_primitive_method
+    result = method(**arguments)
+  File "/src/d3m/d3m/primitive_interfaces/unsupervised_learning.py", line 49, in fit_multi_produce
+    return self._fit_multi_produce(produce_methods=produce_methods, timeout=timeout, iterations=iterations, inputs=inputs)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 545, in _fit_multi_produce
+    self.set_training_data(**arguments)  # type: ignore
+  File "/user_opt/dsbox/src/dsbox-primitives/dsbox/datapreprocessing/featurizer/timeseries/timeseries_feature.py", line 169, in set_training_data
+    raise InvalidArgumentValueError('Expecting two inputs')
+d3m.exceptions.InvalidArgumentValueError: Expecting two inputs
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 327, in _evaluate
+    fitted_pipeline.fit(cache=cache, inputs=[self.train_dataset2[each_repeat]], save_loc=self.output_directory)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/pipeline/fitted_pipeline.py", line 276, in fit
+    fit_result = self.runtime.fit(inputs, **arguments)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 860, in fit
+    self.check_results(self.fit_outputs)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 881, in check_results
+    raise res.error
+  File "/src/d3m/d3m/runtime.py", line 972, in _run
+    self._do_run()
+  File "/src/d3m/d3m/runtime.py", line 958, in _do_run
+    self._do_run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 950, in _do_run_step
+    ) from error
+d3m.exceptions.StepFailedError: Step 5 for pipeline 05b7a6a1-979a-4d51-8885-f3189185b5de failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 189, in evaluate_pipeline
+    raise PipelineEvaluationError(f'Not able to evaluate pipeline created from template {self.template.template["name"]}') from exc
+dsbox.exceptions.PipelineEvaluationError: Not able to evaluate pipeline created from template Default_timeseries_collection_template
+
+2020-02-03 04:55:02 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate -7170700281125015907
+2020-02-03 04:55:02 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-7170700281125015907)
+2020-02-03 04:55:02 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31056.142828823 > 30983.252376426 + 558
+2020-02-03 04:55:02 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:dsbox_classification_template
+2020-02-03 04:55:02 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-6483482108057655483)
+2020-02-03 04:55:02 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -6483482108057655483
+2020-02-03 04:55:02 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31056.145153552 > 30983.252376426 + 558
+2020-02-03 04:55:02 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template dsbox_classification_template -6483482108057655483
+2020-02-03 04:55:02 [ERROR] redirect -- /usr/lib/python3.6/re.py:212: FutureWarning: split() requires a non-empty pattern match.
+2020-02-03 04:55:02 [ERROR] redirect --   return _compile(pattern, flags).split(string, maxsplit)
+2020-02-03 04:55:03 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:03 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:dsbox_classification_template
+2020-02-03 04:55:03 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/src/d3m/d3m/runtime.py", line 941, in _do_run_step
+    self._run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 931, in _run_step
+    self._run_primitive(step)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 266, in _run_primitive
+    multi_call_result = self._call_primitive_method(primitive.fit_multi_produce, fit_multi_produce_arguments)
+  File "/src/d3m/d3m/runtime.py", line 914, in _call_primitive_method
+    raise error
+  File "/src/d3m/d3m/runtime.py", line 910, in _call_primitive_method
+    result = method(**arguments)
+  File "/src/d3m/d3m/primitive_interfaces/unsupervised_learning.py", line 49, in fit_multi_produce
+    return self._fit_multi_produce(produce_methods=produce_methods, timeout=timeout, iterations=iterations, inputs=inputs)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 556, in _fit_multi_produce
+    fit_result = self.fit(timeout=timeout, iterations=iterations)
+  File "/src/pyglrm-d3m/pyglrm_d3m/low_rank_imputer.py", line 108, in fit
+    M[np.isnan(X)]=0
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 278, in _evaluate
+    fitted_pipeline.fit(cache=cache, inputs=[self.train_dataset1], save_loc=self.output_directory)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/pipeline/fitted_pipeline.py", line 276, in fit
+    fit_result = self.runtime.fit(inputs, **arguments)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 860, in fit
+    self.check_results(self.fit_outputs)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 881, in check_results
+    raise res.error
+  File "/src/d3m/d3m/runtime.py", line 972, in _run
+    self._do_run()
+  File "/src/d3m/d3m/runtime.py", line 958, in _do_run
+    self._do_run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 950, in _do_run_step
+    ) from error
+d3m.exceptions.StepFailedError: Step 9 for pipeline 47830b33-c5bf-4c26-b628-9ee7b811c0ec failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 189, in evaluate_pipeline
+    raise PipelineEvaluationError(f'Not able to evaluate pipeline created from template {self.template.template["name"]}') from exc
+dsbox.exceptions.PipelineEvaluationError: Not able to evaluate pipeline created from template dsbox_classification_template
+
+2020-02-03 04:55:03 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate -6483482108057655483
+2020-02-03 04:55:03 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-6483482108057655483)
+2020-02-03 04:55:03 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31057.312956269 > 30983.252376426 + 558
+2020-02-03 04:55:03 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:Distil_acled_problem_template
+2020-02-03 04:55:03 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (5427612923500654190)
+2020-02-03 04:55:03 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 5427612923500654190
+2020-02-03 04:55:03 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31057.314581672 > 30983.252376426 + 558
+2020-02-03 04:55:03 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template Distil_acled_problem_template 5427612923500654190
+2020-02-03 04:55:05 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Will use normal train-test mode (n=1) to choose best primitives.
+2020-02-03 04:55:06 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:Distil_acled_problem_template
+2020-02-03 04:55:06 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/src/d3m/d3m/runtime.py", line 941, in _do_run_step
+    self._run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 931, in _run_step
+    self._run_primitive(step)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 266, in _run_primitive
+    multi_call_result = self._call_primitive_method(primitive.fit_multi_produce, fit_multi_produce_arguments)
+  File "/src/d3m/d3m/runtime.py", line 914, in _call_primitive_method
+    raise error
+  File "/src/d3m/d3m/runtime.py", line 910, in _call_primitive_method
+    result = method(**arguments)
+  File "/src/d3m/d3m/primitive_interfaces/unsupervised_learning.py", line 49, in fit_multi_produce
+    return self._fit_multi_produce(produce_methods=produce_methods, timeout=timeout, iterations=iterations, inputs=inputs)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 556, in _fit_multi_produce
+    fit_result = self.fit(timeout=timeout, iterations=iterations)
+  File "/user_opt/dsbox/src/sklearn-wrap/sklearn_wrap/SKImputer.py", line 196, in fit
+    raise RuntimeError("No input columns were selected")
+RuntimeError: No input columns were selected
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 327, in _evaluate
+    fitted_pipeline.fit(cache=cache, inputs=[self.train_dataset2[each_repeat]], save_loc=self.output_directory)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/pipeline/fitted_pipeline.py", line 276, in fit
+    fit_result = self.runtime.fit(inputs, **arguments)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 860, in fit
+    self.check_results(self.fit_outputs)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 881, in check_results
+    raise res.error
+  File "/src/d3m/d3m/runtime.py", line 972, in _run
+    self._do_run()
+  File "/src/d3m/d3m/runtime.py", line 958, in _do_run
+    self._do_run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 950, in _do_run_step
+    ) from error
+d3m.exceptions.StepFailedError: Step 12 for pipeline 6a588cce-9ef0-4389-9e39-419f172b9f60 failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 189, in evaluate_pipeline
+    raise PipelineEvaluationError(f'Not able to evaluate pipeline created from template {self.template.template["name"]}') from exc
+dsbox.exceptions.PipelineEvaluationError: Not able to evaluate pipeline created from template Distil_acled_problem_template
+
+2020-02-03 04:55:06 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate 5427612923500654190
+2020-02-03 04:55:06 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (5427612923500654190)
+2020-02-03 04:55:06 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31060.052570652 > 30983.252376426 + 558
+2020-02-03 04:55:06 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:dsbox_classification_template
+2020-02-03 04:55:06 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-2210857319908854922)
+2020-02-03 04:55:06 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -2210857319908854922
+2020-02-03 04:55:06 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31060.054543534 > 30983.252376426 + 558
+2020-02-03 04:55:06 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template dsbox_classification_template -2210857319908854922
+2020-02-03 04:55:08 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:dsbox_classification_template
+2020-02-03 04:55:08 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/src/d3m/d3m/runtime.py", line 941, in _do_run_step
+    self._run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 931, in _run_step
+    self._run_primitive(step)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 266, in _run_primitive
+    multi_call_result = self._call_primitive_method(primitive.fit_multi_produce, fit_multi_produce_arguments)
+  File "/src/d3m/d3m/runtime.py", line 914, in _call_primitive_method
+    raise error
+  File "/src/d3m/d3m/runtime.py", line 910, in _call_primitive_method
+    result = method(**arguments)
+  File "/src/d3m/d3m/primitive_interfaces/unsupervised_learning.py", line 49, in fit_multi_produce
+    return self._fit_multi_produce(produce_methods=produce_methods, timeout=timeout, iterations=iterations, inputs=inputs)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 556, in _fit_multi_produce
+    fit_result = self.fit(timeout=timeout, iterations=iterations)
+  File "/src/pyglrm-d3m/pyglrm_d3m/low_rank_imputer.py", line 108, in fit
+    M[np.isnan(X)]=0
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 278, in _evaluate
+    fitted_pipeline.fit(cache=cache, inputs=[self.train_dataset1], save_loc=self.output_directory)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/pipeline/fitted_pipeline.py", line 276, in fit
+    fit_result = self.runtime.fit(inputs, **arguments)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 860, in fit
+    self.check_results(self.fit_outputs)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 881, in check_results
+    raise res.error
+  File "/src/d3m/d3m/runtime.py", line 972, in _run
+    self._do_run()
+  File "/src/d3m/d3m/runtime.py", line 958, in _do_run
+    self._do_run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 950, in _do_run_step
+    ) from error
+d3m.exceptions.StepFailedError: Step 9 for pipeline d1d5a99e-29df-4a38-b377-c7a911952625 failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 189, in evaluate_pipeline
+    raise PipelineEvaluationError(f'Not able to evaluate pipeline created from template {self.template.template["name"]}') from exc
+dsbox.exceptions.PipelineEvaluationError: Not able to evaluate pipeline created from template dsbox_classification_template
+
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate -2210857319908854922
+2020-02-03 04:55:08 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-2210857319908854922)
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31061.951797851 > 30983.252376426 + 558
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:Default_timeseries_collection_template
+2020-02-03 04:55:08 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-5906804852538116249)
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -5906804852538116249
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31061.965313739 > 30983.252376426 + 558
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template Default_timeseries_collection_template -5906804852538116249
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Will use normal train-test mode (n=1) to choose best primitives.
+2020-02-03 04:55:08 [INFO] dsbox.datapreprocessing.featurizer.timeseries.timeseries_to_list -- Warning: Can't find timeseries index!
+2020-02-03 04:55:08 [INFO] dsbox.datapreprocessing.featurizer.timeseries.timeseries_to_list -- No timeseries dataset detected!
+2020-02-03 04:55:08 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:Default_timeseries_collection_template
+2020-02-03 04:55:08 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/src/d3m/d3m/runtime.py", line 941, in _do_run_step
+    self._run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 931, in _run_step
+    self._run_primitive(step)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 266, in _run_primitive
+    multi_call_result = self._call_primitive_method(primitive.fit_multi_produce, fit_multi_produce_arguments)
+  File "/src/d3m/d3m/runtime.py", line 914, in _call_primitive_method
+    raise error
+  File "/src/d3m/d3m/runtime.py", line 910, in _call_primitive_method
+    result = method(**arguments)
+  File "/src/d3m/d3m/primitive_interfaces/unsupervised_learning.py", line 49, in fit_multi_produce
+    return self._fit_multi_produce(produce_methods=produce_methods, timeout=timeout, iterations=iterations, inputs=inputs)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 545, in _fit_multi_produce
+    self.set_training_data(**arguments)  # type: ignore
+  File "/user_opt/dsbox/src/dsbox-primitives/dsbox/datapreprocessing/featurizer/timeseries/timeseries_feature.py", line 169, in set_training_data
+    raise InvalidArgumentValueError('Expecting two inputs')
+d3m.exceptions.InvalidArgumentValueError: Expecting two inputs
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 327, in _evaluate
+    fitted_pipeline.fit(cache=cache, inputs=[self.train_dataset2[each_repeat]], save_loc=self.output_directory)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/pipeline/fitted_pipeline.py", line 276, in fit
+    fit_result = self.runtime.fit(inputs, **arguments)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 860, in fit
+    self.check_results(self.fit_outputs)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 881, in check_results
+    raise res.error
+  File "/src/d3m/d3m/runtime.py", line 972, in _run
+    self._do_run()
+  File "/src/d3m/d3m/runtime.py", line 958, in _do_run
+    self._do_run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 950, in _do_run_step
+    ) from error
+d3m.exceptions.StepFailedError: Step 5 for pipeline 722d1edd-0909-43dd-bddd-557c487f5997 failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 189, in evaluate_pipeline
+    raise PipelineEvaluationError(f'Not able to evaluate pipeline created from template {self.template.template["name"]}') from exc
+dsbox.exceptions.PipelineEvaluationError: Not able to evaluate pipeline created from template Default_timeseries_collection_template
+
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate -5906804852538116249
+2020-02-03 04:55:08 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-5906804852538116249)
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31062.23537825 > 30983.252376426 + 558
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:55:08 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8201424272686928398)
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8201424272686928398
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31062.244034559 > 30983.252376426 + 558
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template CMU_acled_problem_template 8201424272686928398
+2020-02-03 04:55:08 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:55:08 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 208, in _evaluate
+    pipeline = self.template.to_pipeline(configuration)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/template.py", line 135, in to_pipeline
+    binding, sequence = self.add_intermediate_type_casting(ioconf)
+TypeError: 'int' object is not iterable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 186, in evaluate_pipeline
+    raise PipelineInstantiationError(f'Not able to create pipeline from template {self.template.template["name"]}.') from exc
+dsbox.exceptions.PipelineInstantiationError: Not able to create pipeline from template CMU_acled_problem_template.
+
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate 8201424272686928398
+2020-02-03 04:55:08 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (8201424272686928398)
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31062.276419808 > 30983.252376426 + 558
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:default_classification_template
+2020-02-03 04:55:08 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (2076269502910108647)
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 2076269502910108647
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31062.295282376 > 30983.252376426 + 558
+2020-02-03 04:55:08 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template default_classification_template 2076269502910108647
+2020-02-03 04:55:08 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:09 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:11 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:12 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- CV finish
+2020-02-03 04:55:12 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:55:12 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:12 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:15 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:15 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:15 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:15 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:16 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Training final pipeline with all dataset and saving the pipeline.
+2020-02-03 04:55:16 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:16 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:19 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:20 [INFO] dsbox.pipeline.fitted_pipeline -- Primitive Denormalize has been added to pipeline.
+2020-02-03 04:55:20 [INFO] dsbox.pipeline.fitted_pipeline -- Saving pickle files of pipeline 4b0cc914-26b0-42a8-a557-2a27b2bc0059 finished.
+2020-02-03 04:55:20 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:20 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:20 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:20 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Test pickled pipeline. id: 4b0cc914-26b0-42a8-a557-2a27b2bc0059
+2020-02-03 04:55:21 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:21 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:21 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:21 [WARNING] dsbox.pipeline.fitted_pipeline -- File exists! /output/pipelines_status/produce_4b0cc914-26b0-42a8-a557-2a27b2bc0059_status_0.json
+2020-02-03 04:55:21 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- END Evaluation of template default_classification_template 2076269502910108647 in <_MainProcess(MainProcess, started)>
+2020-02-03 04:55:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline SUCCEEDED DSBoxTemplate:default_classification_template
+2020-02-03 04:55:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- report fitted_pipeline 2303ff4c-2bab-4d8f-8ad9-16e3dda88a28
+2020-02-03 04:55:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=2303ff4c-2bab-4d8f-8ad9-16e3dda88a28
+2020-02-03 04:55:21 [WARNING] dsbox.combinatorial_search.ExecutionHistory -- [WARN] cross_validation_metrics and test_metrics are not compatible
+2020-02-03 04:55:21 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (2076269502910108647)
+2020-02-03 04:55:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31075.504729809 > 30983.252376426 + 558
+2020-02-03 04:55:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:naive_bayes_classification_template
+2020-02-03 04:55:21 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-6452746079590774181)
+2020-02-03 04:55:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -6452746079590774181
+2020-02-03 04:55:21 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31075.506543965 > 30983.252376426 + 558
+2020-02-03 04:55:21 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template naive_bayes_classification_template -6452746079590774181
+2020-02-03 04:55:22 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:22 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:24 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:25 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- CV finish
+2020-02-03 04:55:25 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:55:25 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:26 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:28 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:28 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:28 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:28 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:28 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Training final pipeline with all dataset and saving the pipeline.
+2020-02-03 04:55:29 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:29 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:32 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:32 [INFO] dsbox.pipeline.fitted_pipeline -- Primitive Denormalize has been added to pipeline.
+2020-02-03 04:55:32 [INFO] dsbox.pipeline.fitted_pipeline -- Saving pickle files of pipeline 682be59e-0e46-453d-b823-615bafcb37d0 finished.
+2020-02-03 04:55:32 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:32 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:33 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:33 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Test pickled pipeline. id: 682be59e-0e46-453d-b823-615bafcb37d0
+2020-02-03 04:55:33 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:33 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:55:33 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:33 [WARNING] dsbox.pipeline.fitted_pipeline -- File exists! /output/pipelines_status/produce_682be59e-0e46-453d-b823-615bafcb37d0_status_0.json
+2020-02-03 04:55:33 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- END Evaluation of template naive_bayes_classification_template -6452746079590774181 in <_MainProcess(MainProcess, started)>
+2020-02-03 04:55:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline SUCCEEDED DSBoxTemplate:naive_bayes_classification_template
+2020-02-03 04:55:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- report fitted_pipeline dd630870-26cd-4644-818f-3e9c8e95fc3f
+2020-02-03 04:55:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=dd630870-26cd-4644-818f-3e9c8e95fc3f
+2020-02-03 04:55:33 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-6452746079590774181)
+2020-02-03 04:55:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31087.804938693 > 30983.252376426 + 558
+2020-02-03 04:55:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:dsbox_classification_template
+2020-02-03 04:55:33 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8892801997030013735)
+2020-02-03 04:55:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8892801997030013735
+2020-02-03 04:55:33 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31087.806912438 > 30983.252376426 + 558
+2020-02-03 04:55:33 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template dsbox_classification_template -8892801997030013735
+2020-02-03 04:55:35 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:dsbox_classification_template
+2020-02-03 04:55:35 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/src/d3m/d3m/runtime.py", line 941, in _do_run_step
+    self._run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 931, in _run_step
+    self._run_primitive(step)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 266, in _run_primitive
+    multi_call_result = self._call_primitive_method(primitive.fit_multi_produce, fit_multi_produce_arguments)
+  File "/src/d3m/d3m/runtime.py", line 914, in _call_primitive_method
+    raise error
+  File "/src/d3m/d3m/runtime.py", line 910, in _call_primitive_method
+    result = method(**arguments)
+  File "/src/d3m/d3m/primitive_interfaces/unsupervised_learning.py", line 49, in fit_multi_produce
+    return self._fit_multi_produce(produce_methods=produce_methods, timeout=timeout, iterations=iterations, inputs=inputs)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 556, in _fit_multi_produce
+    fit_result = self.fit(timeout=timeout, iterations=iterations)
+  File "/src/pyglrm-d3m/pyglrm_d3m/low_rank_imputer.py", line 108, in fit
+    M[np.isnan(X)]=0
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 278, in _evaluate
+    fitted_pipeline.fit(cache=cache, inputs=[self.train_dataset1], save_loc=self.output_directory)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/pipeline/fitted_pipeline.py", line 276, in fit
+    fit_result = self.runtime.fit(inputs, **arguments)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 860, in fit
+    self.check_results(self.fit_outputs)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 881, in check_results
+    raise res.error
+  File "/src/d3m/d3m/runtime.py", line 972, in _run
+    self._do_run()
+  File "/src/d3m/d3m/runtime.py", line 958, in _do_run
+    self._do_run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 950, in _do_run_step
+    ) from error
+d3m.exceptions.StepFailedError: Step 9 for pipeline 39b9d04a-abea-42c9-9ea8-752d68503027 failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 189, in evaluate_pipeline
+    raise PipelineEvaluationError(f'Not able to evaluate pipeline created from template {self.template.template["name"]}') from exc
+dsbox.exceptions.PipelineEvaluationError: Not able to evaluate pipeline created from template dsbox_classification_template
+
+2020-02-03 04:55:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate -8892801997030013735
+2020-02-03 04:55:35 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-8892801997030013735)
+2020-02-03 04:55:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31088.931428966 > 30983.252376426 + 558
+2020-02-03 04:55:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:TA1Classification_3
+2020-02-03 04:55:35 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (2227652708450488661)
+2020-02-03 04:55:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 2227652708450488661
+2020-02-03 04:55:35 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31088.93306196 > 30983.252376426 + 558
+2020-02-03 04:55:35 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template TA1Classification_3 2227652708450488661
+2020-02-03 04:55:38 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:38 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- CV finish
+2020-02-03 04:55:38 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:55:42 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:42 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:42 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Training final pipeline with all dataset and saving the pipeline.
+2020-02-03 04:55:46 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:46 [INFO] dsbox.pipeline.fitted_pipeline -- Primitive Denormalize has been added to pipeline.
+2020-02-03 04:55:46 [INFO] dsbox.pipeline.fitted_pipeline -- Saving pickle files of pipeline 2db6ff2f-47a8-4f8b-8fc9-6b567ee277b5 finished.
+2020-02-03 04:55:46 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:46 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Test pickled pipeline. id: 2db6ff2f-47a8-4f8b-8fc9-6b567ee277b5
+2020-02-03 04:55:47 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:55:47 [WARNING] dsbox.pipeline.fitted_pipeline -- File exists! /output/pipelines_status/produce_2db6ff2f-47a8-4f8b-8fc9-6b567ee277b5_status_0.json
+2020-02-03 04:55:47 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- END Evaluation of template TA1Classification_3 2227652708450488661 in <_MainProcess(MainProcess, started)>
+2020-02-03 04:55:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline SUCCEEDED DSBoxTemplate:TA1Classification_3
+2020-02-03 04:55:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- report fitted_pipeline af860b7a-947a-4ac5-94f5-577bfa386d31
+2020-02-03 04:55:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=af860b7a-947a-4ac5-94f5-577bfa386d31
+2020-02-03 04:55:47 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (2227652708450488661)
+2020-02-03 04:55:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31101.305473227 > 30983.252376426 + 558
+2020-02-03 04:55:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:default_classification_template
+2020-02-03 04:55:47 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (4715173942694499364)
+2020-02-03 04:55:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 4715173942694499364
+2020-02-03 04:55:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31101.324510097 > 30983.252376426 + 558
+2020-02-03 04:55:47 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template default_classification_template 4715173942694499364
+2020-02-03 04:55:48 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:55:48 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:56:05 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:05 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- CV finish
+2020-02-03 04:56:05 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:56:05 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:56:06 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:56:23 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:23 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:56:23 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:56:23 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:23 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Training final pipeline with all dataset and saving the pipeline.
+2020-02-03 04:56:24 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:56:24 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:56:42 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:43 [INFO] dsbox.pipeline.fitted_pipeline -- Primitive Denormalize has been added to pipeline.
+2020-02-03 04:56:43 [INFO] dsbox.pipeline.fitted_pipeline -- Saving pickle files of pipeline 8f8f359d-cb5c-4556-8e16-a0f303c14791 finished.
+2020-02-03 04:56:43 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:56:43 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:56:43 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:43 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Test pickled pipeline. id: 8f8f359d-cb5c-4556-8e16-a0f303c14791
+2020-02-03 04:56:44 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:56:44 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:56:44 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:44 [WARNING] dsbox.pipeline.fitted_pipeline -- File exists! /output/pipelines_status/produce_8f8f359d-cb5c-4556-8e16-a0f303c14791_status_0.json
+2020-02-03 04:56:44 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- END Evaluation of template default_classification_template 4715173942694499364 in <_MainProcess(MainProcess, started)>
+2020-02-03 04:56:44 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline SUCCEEDED DSBoxTemplate:default_classification_template
+2020-02-03 04:56:44 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- report fitted_pipeline 9b2f3ce0-3ebe-4d25-806d-6dee15c14a5d
+2020-02-03 04:56:44 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=9b2f3ce0-3ebe-4d25-806d-6dee15c14a5d
+2020-02-03 04:56:44 [WARNING] dsbox.combinatorial_search.ExecutionHistory -- [WARN] cross_validation_metrics and test_metrics are not compatible
+2020-02-03 04:56:44 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (4715173942694499364)
+2020-02-03 04:56:44 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31158.663835457 > 30983.252376426 + 558
+2020-02-03 04:56:44 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:Large_column_number_with_numerical_only_classification
+2020-02-03 04:56:44 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-5267228855867433833)
+2020-02-03 04:56:44 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -5267228855867433833
+2020-02-03 04:56:44 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31158.665507197 > 30983.252376426 + 558
+2020-02-03 04:56:44 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template Large_column_number_with_numerical_only_classification -5267228855867433833
+2020-02-03 04:56:44 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Will use normal train-test mode (n=1) to choose best primitives.
+2020-02-03 04:56:45 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:45 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:45 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:56:45 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:45 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:46 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Training final pipeline with all dataset and saving the pipeline.
+2020-02-03 04:56:46 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:46 [INFO] dsbox.pipeline.fitted_pipeline -- Primitive Denormalize has been added to pipeline.
+2020-02-03 04:56:46 [INFO] dsbox.pipeline.fitted_pipeline -- Saving pickle files of pipeline ca5056e1-7c85-4966-9af2-262e548a2efa finished.
+2020-02-03 04:56:46 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:46 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Test pickled pipeline. id: ca5056e1-7c85-4966-9af2-262e548a2efa
+2020-02-03 04:56:47 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:47 [WARNING] dsbox.pipeline.fitted_pipeline -- File exists! /output/pipelines_status/produce_ca5056e1-7c85-4966-9af2-262e548a2efa_status_0.json
+2020-02-03 04:56:47 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- END Evaluation of template Large_column_number_with_numerical_only_classification -5267228855867433833 in <_MainProcess(MainProcess, started)>
+2020-02-03 04:56:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline SUCCEEDED DSBoxTemplate:Large_column_number_with_numerical_only_classification
+2020-02-03 04:56:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- report fitted_pipeline 2f4f40db-7ac6-4a03-adca-d0ab8bf4edd5
+2020-02-03 04:56:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=2f4f40db-7ac6-4a03-adca-d0ab8bf4edd5
+2020-02-03 04:56:47 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-5267228855867433833)
+2020-02-03 04:56:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31161.0583019 > 30983.252376426 + 558
+2020-02-03 04:56:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:naive_bayes_classification_template
+2020-02-03 04:56:47 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-1401138093743203549)
+2020-02-03 04:56:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -1401138093743203549
+2020-02-03 04:56:47 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31161.060260684 > 30983.252376426 + 558
+2020-02-03 04:56:47 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template naive_bayes_classification_template -1401138093743203549
+2020-02-03 04:56:47 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:56:48 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:56:49 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:naive_bayes_classification_template
+2020-02-03 04:56:49 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/src/d3m/d3m/runtime.py", line 941, in _do_run_step
+    self._run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 931, in _run_step
+    self._run_primitive(step)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 266, in _run_primitive
+    multi_call_result = self._call_primitive_method(primitive.fit_multi_produce, fit_multi_produce_arguments)
+  File "/src/d3m/d3m/runtime.py", line 914, in _call_primitive_method
+    raise error
+  File "/src/d3m/d3m/runtime.py", line 910, in _call_primitive_method
+    result = method(**arguments)
+  File "/src/d3m/d3m/primitive_interfaces/unsupervised_learning.py", line 49, in fit_multi_produce
+    return self._fit_multi_produce(produce_methods=produce_methods, timeout=timeout, iterations=iterations, inputs=inputs)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 556, in _fit_multi_produce
+    fit_result = self.fit(timeout=timeout, iterations=iterations)
+  File "/user_opt/dsbox/src/sklearn-wrap/sklearn_wrap/SKPCA.py", line 239, in fit
+    self._clf.fit(self._training_inputs)
+  File "/usr/local/lib/python3.6/dist-packages/sklearn/decomposition/pca.py", line 341, in fit
+    self._fit(X)
+  File "/usr/local/lib/python3.6/dist-packages/sklearn/decomposition/pca.py", line 407, in _fit
+    return self._fit_full(X, n_components)
+  File "/usr/local/lib/python3.6/dist-packages/sklearn/decomposition/pca.py", line 426, in _fit_full
+    % (n_components, min(n_samples, n_features)))
+ValueError: n_components=25 must be between 0 and min(n_samples, n_features)=23 with svd_solver='full'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 278, in _evaluate
+    fitted_pipeline.fit(cache=cache, inputs=[self.train_dataset1], save_loc=self.output_directory)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/pipeline/fitted_pipeline.py", line 276, in fit
+    fit_result = self.runtime.fit(inputs, **arguments)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 860, in fit
+    self.check_results(self.fit_outputs)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 881, in check_results
+    raise res.error
+  File "/src/d3m/d3m/runtime.py", line 972, in _run
+    self._do_run()
+  File "/src/d3m/d3m/runtime.py", line 958, in _do_run
+    self._do_run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 950, in _do_run_step
+    ) from error
+d3m.exceptions.StepFailedError: Step 10 for pipeline 124337b6-ab49-4c96-8269-77c90a0d0a7b failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 189, in evaluate_pipeline
+    raise PipelineEvaluationError(f'Not able to evaluate pipeline created from template {self.template.template["name"]}') from exc
+dsbox.exceptions.PipelineEvaluationError: Not able to evaluate pipeline created from template naive_bayes_classification_template
+
+2020-02-03 04:56:49 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate -1401138093743203549
+2020-02-03 04:56:49 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-1401138093743203549)
+2020-02-03 04:56:49 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31163.74724613 > 30983.252376426 + 558
+2020-02-03 04:56:49 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:dsbox_classification_template
+2020-02-03 04:56:49 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-8686680399304493059)
+2020-02-03 04:56:49 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -8686680399304493059
+2020-02-03 04:56:49 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31163.749129883 > 30983.252376426 + 558
+2020-02-03 04:56:49 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template dsbox_classification_template -8686680399304493059
+2020-02-03 04:56:50 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:56:50 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:56:53 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:54 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- CV finish
+2020-02-03 04:56:54 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:56:54 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:56:55 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:56:57 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:58 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:56:58 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:56:58 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:56:58 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Training final pipeline with all dataset and saving the pipeline.
+2020-02-03 04:56:58 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:56:59 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:57:02 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:02 [INFO] dsbox.pipeline.fitted_pipeline -- Primitive Denormalize has been added to pipeline.
+2020-02-03 04:57:02 [INFO] dsbox.pipeline.fitted_pipeline -- Saving pickle files of pipeline b90486e7-2a51-4875-94b0-8b8fd76eba8c finished.
+2020-02-03 04:57:03 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:57:03 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:57:03 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:03 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Test pickled pipeline. id: b90486e7-2a51-4875-94b0-8b8fd76eba8c
+2020-02-03 04:57:03 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:57:03 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:57:03 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:03 [WARNING] dsbox.pipeline.fitted_pipeline -- File exists! /output/pipelines_status/produce_b90486e7-2a51-4875-94b0-8b8fd76eba8c_status_0.json
+2020-02-03 04:57:04 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- END Evaluation of template dsbox_classification_template -8686680399304493059 in <_MainProcess(MainProcess, started)>
+2020-02-03 04:57:04 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline SUCCEEDED DSBoxTemplate:dsbox_classification_template
+2020-02-03 04:57:04 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- report fitted_pipeline e83389b7-2f12-4c19-9c7f-958e8a1906f0
+2020-02-03 04:57:04 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=e83389b7-2f12-4c19-9c7f-958e8a1906f0
+2020-02-03 04:57:04 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-8686680399304493059)
+2020-02-03 04:57:04 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31177.965255731 > 30983.252376426 + 558
+2020-02-03 04:57:04 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:Large_column_number_with_numerical_only_classification
+2020-02-03 04:57:04 [INFO] dsbox.JobManager.cache -- hit@Candidate: (-5267228855867433833)
+2020-02-03 04:57:04 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31177.966257008 > 30983.252376426 + 558
+2020-02-03 04:57:04 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:default_text_classification_template
+2020-02-03 04:57:04 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (1800980004014145257)
+2020-02-03 04:57:04 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 1800980004014145257
+2020-02-03 04:57:04 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31177.968445086 > 30983.252376426 + 558
+2020-02-03 04:57:04 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template default_text_classification_template 1800980004014145257
+2020-02-03 04:57:14 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:15 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- CV finish
+2020-02-03 04:57:15 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:57:25 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:26 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:26 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Training final pipeline with all dataset and saving the pipeline.
+2020-02-03 04:57:38 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:39 [INFO] dsbox.pipeline.fitted_pipeline -- Primitive Denormalize has been added to pipeline.
+2020-02-03 04:57:39 [INFO] dsbox.pipeline.fitted_pipeline -- Saving pickle files of pipeline fa647e97-c526-411c-aa69-5bdb0951dd1a finished.
+2020-02-03 04:57:39 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:39 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Test pickled pipeline. id: fa647e97-c526-411c-aa69-5bdb0951dd1a
+2020-02-03 04:57:40 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:40 [WARNING] dsbox.pipeline.fitted_pipeline -- File exists! /output/pipelines_status/produce_fa647e97-c526-411c-aa69-5bdb0951dd1a_status_0.json
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- END Evaluation of template default_text_classification_template 1800980004014145257 in <_MainProcess(MainProcess, started)>
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline SUCCEEDED DSBoxTemplate:default_text_classification_template
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- report fitted_pipeline cecc0b1f-79d6-4e34-9d8e-4a4dbe9b9030
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=cecc0b1f-79d6-4e34-9d8e-4a4dbe9b9030
+2020-02-03 04:57:40 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (1800980004014145257)
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31214.184491376 > 30983.252376426 + 558
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:57:40 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (8833414340226466496)
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 8833414340226466496
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31214.193737145 > 30983.252376426 + 558
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template CMU_acled_problem_template 8833414340226466496
+2020-02-03 04:57:40 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:57:40 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 208, in _evaluate
+    pipeline = self.template.to_pipeline(configuration)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/template.py", line 135, in to_pipeline
+    binding, sequence = self.add_intermediate_type_casting(ioconf)
+TypeError: 'int' object is not iterable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 186, in evaluate_pipeline
+    raise PipelineInstantiationError(f'Not able to create pipeline from template {self.template.template["name"]}.') from exc
+dsbox.exceptions.PipelineInstantiationError: Not able to create pipeline from template CMU_acled_problem_template.
+
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate 8833414340226466496
+2020-02-03 04:57:40 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (8833414340226466496)
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31214.227543343 > 30983.252376426 + 558
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:57:40 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (7631057656482580503)
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: 7631057656482580503
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31214.237016956 > 30983.252376426 + 558
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template CMU_acled_problem_template 7631057656482580503
+2020-02-03 04:57:40 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:CMU_acled_problem_template
+2020-02-03 04:57:40 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 208, in _evaluate
+    pipeline = self.template.to_pipeline(configuration)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/template.py", line 135, in to_pipeline
+    binding, sequence = self.add_intermediate_type_casting(ioconf)
+TypeError: 'int' object is not iterable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 186, in evaluate_pipeline
+    raise PipelineInstantiationError(f'Not able to create pipeline from template {self.template.template["name"]}.') from exc
+dsbox.exceptions.PipelineInstantiationError: Not able to create pipeline from template CMU_acled_problem_template.
+
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate 7631057656482580503
+2020-02-03 04:57:40 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (7631057656482580503)
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31214.268374216 > 30983.252376426 + 558
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:Large_column_number_with_numerical_only_classification
+2020-02-03 04:57:40 [INFO] dsbox.JobManager.cache -- hit@Candidate: (-5267228855867433833)
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31214.269757859 > 30983.252376426 + 558
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:Distil_acled_problem_template
+2020-02-03 04:57:40 [INFO] dsbox.JobManager.cache -- hit@Candidate: (5427612923500654190)
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31214.271279917 > 30983.252376426 + 558
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:default_classification_template
+2020-02-03 04:57:40 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-6544527112075061779)
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -6544527112075061779
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31214.28945937 > 30983.252376426 + 558
+2020-02-03 04:57:40 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template default_classification_template -6544527112075061779
+2020-02-03 04:57:41 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:57:41 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:57:43 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline FAILED DSBoxTemplate:default_classification_template
+2020-02-03 04:57:43 [ERROR] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Traceback (most recent call last):
+  File "/src/d3m/d3m/runtime.py", line 941, in _do_run_step
+    self._run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 931, in _run_step
+    self._run_primitive(step)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 266, in _run_primitive
+    multi_call_result = self._call_primitive_method(primitive.fit_multi_produce, fit_multi_produce_arguments)
+  File "/src/d3m/d3m/runtime.py", line 914, in _call_primitive_method
+    raise error
+  File "/src/d3m/d3m/runtime.py", line 910, in _call_primitive_method
+    result = method(**arguments)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 529, in fit_multi_produce
+    return self._fit_multi_produce(produce_methods=produce_methods, timeout=timeout, iterations=iterations, inputs=inputs, outputs=outputs)
+  File "/src/d3m/d3m/primitive_interfaces/base.py", line 545, in _fit_multi_produce
+    self.set_training_data(**arguments)  # type: ignore
+  File "/usr/local/lib/python3.6/dist-packages/rpi_d3m_primitives/JMIplus_auto.py", line 160, in set_training_data
+    temp = list(inputs.iloc[:, column_index].values)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/core/indexing.py", line 1418, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/core/indexing.py", line 2092, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/core/indexing.py", line 235, in _has_valid_tuple
+    self._validate_key(k, i)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/core/indexing.py", line 2014, in _validate_key
+    self._validate_integer(key, axis)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/core/indexing.py", line 2088, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 179, in evaluate_pipeline
+    evaluation_result = self._evaluate(configuration, cache, dump2disk)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 278, in _evaluate
+    fitted_pipeline.fit(cache=cache, inputs=[self.train_dataset1], save_loc=self.output_directory)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/pipeline/fitted_pipeline.py", line 276, in fit
+    fit_result = self.runtime.fit(inputs, **arguments)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 860, in fit
+    self.check_results(self.fit_outputs)
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/template/runtime.py", line 881, in check_results
+    raise res.error
+  File "/src/d3m/d3m/runtime.py", line 972, in _run
+    self._do_run()
+  File "/src/d3m/d3m/runtime.py", line 958, in _do_run
+    self._do_run_step(step)
+  File "/src/d3m/d3m/runtime.py", line 950, in _do_run_step
+    ) from error
+d3m.exceptions.StepFailedError: Step 13 for pipeline 1a583109-8c20-4f27-ae6b-b6aba1290259 failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/TemplateSpaceBaseSearch.py", line 124, in search
+    args=(candidate, self.cacheManager.primitive_cache, True))
+  File "/user_opt/dsbox/dsbox-ta2/python/dsbox/combinatorial_search/ConfigurationSpaceBaseSearch.py", line 189, in evaluate_pipeline
+    raise PipelineEvaluationError(f'Not able to evaluate pipeline created from template {self.template.template["name"]}') from exc
+dsbox.exceptions.PipelineEvaluationError: Not able to evaluate pipeline created from template default_classification_template
+
+2020-02-03 04:57:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search Failed on candidate -6544527112075061779
+2020-02-03 04:57:43 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-6544527112075061779)
+2020-02-03 04:57:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31217.382971802 > 30983.252376426 + 558
+2020-02-03 04:57:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template DSBoxTemplate:default_text_classification_template
+2020-02-03 04:57:43 [INFO] dsbox.JobManager.cache -- push@Candidate_DUMMY: (-6625193698775792642)
+2020-02-03 04:57:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Selecting Candidate: -6625193698775792642
+2020-02-03 04:57:43 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Test Done: False: 31217.385699454 > 30983.252376426 + 558
+2020-02-03 04:57:43 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Evaluate template default_text_classification_template -6625193698775792642
+2020-02-03 04:57:44 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:57:44 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:57:51 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:51 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- CV finish
+2020-02-03 04:57:51 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- [INFO] Now in normal mode, will add extra train with train_dataset1
+2020-02-03 04:57:52 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:57:52 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:57:59 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:59 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:57:59 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:57:59 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:57:59 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Training final pipeline with all dataset and saving the pipeline.
+2020-02-03 04:58:00 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:58:00 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:58:08 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:58:08 [INFO] dsbox.pipeline.fitted_pipeline -- Primitive Denormalize has been added to pipeline.
+2020-02-03 04:58:08 [INFO] dsbox.pipeline.fitted_pipeline -- Saving pickle files of pipeline d290e573-ff19-490d-813e-662e4d83d755 finished.
+2020-02-03 04:58:08 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:58:08 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:58:09 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:58:09 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- Test pickled pipeline. id: d290e573-ff19-490d-813e-662e4d83d755
+2020-02-03 04:58:09 [ERROR] redirect -- split() requires a non-empty pattern match.
+2020-02-03 04:58:09 [INFO] dsbox.datapreprocessing.cleaner.cleaning_featurizer -- Punctuation Featurizer. 'created_columns': '[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]'.
+2020-02-03 04:58:09 [ERROR] dsbox.pipeline.fitted_pipeline -- The usage measurement length is different from pipeline steps!
+2020-02-03 04:58:09 [WARNING] dsbox.pipeline.fitted_pipeline -- File exists! /output/pipelines_status/produce_d290e573-ff19-490d-813e-662e4d83d755_status_0.json
+2020-02-03 04:58:09 [INFO] dsbox.combinatorial_search.ConfigurationSpaceBaseSearch -- END Evaluation of template default_text_classification_template -6625193698775792642 in <_MainProcess(MainProcess, started)>
+2020-02-03 04:58:09 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- Search template pipeline SUCCEEDED DSBoxTemplate:default_text_classification_template
+2020-02-03 04:58:09 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- report fitted_pipeline bd8c1e97-9846-4deb-a39b-8c2692ac7536
+2020-02-03 04:58:09 [INFO] dsbox.combinatorial_search.TemplateSpaceBaseSearch -- New report: id=bd8c1e97-9846-4deb-a39b-8c2692ac7536
+2020-02-03 04:58:09 [INFO] dsbox.JobManager.cache -- push@Candidate_FULL: (-6625193698775792642)
+2020-02-03 04:58:09 [INFO] dsbox.JobManager.cache -- Cleanup Cache Manager. candidate_cache:27 primitive_cache:134
+2020-02-03 04:58:09 [WARNING] dsbox.combinatorial_search.ExecutionHistory -- [WARN] cross_validation_metrics and test_metrics are not compatible
+2020-02-03 04:58:09 [INFO] dsbox.controller.controller -- ******************
+[INFO] Writing results
+2020-02-03 04:58:09 [INFO] dsbox.controller.controller -- training_metrics 1 = 0.6058770069675856
+2020-02-03 04:58:09 [INFO] dsbox.controller.controller -- cross_validation_metrics accuracy = 0.5608886090966954
+2020-02-03 04:58:09 [INFO] dsbox.controller.controller -- test_metrics 1 = 0.5676657584014533
+2020-02-03 04:58:09 [INFO] dsbox.JobManager.usage_monitor -- Recording on resource ended!
+2020-02-03 04:58:10 [WARNING] dsbox.controller.controller -- write_training_results
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     Found 11 solutions.
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683304000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683352000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | solution_id: "ca5056e1-7c85-4966-9af2-262e548a2efa"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | internal_score: 0.5867393278837421
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scoring_configuration {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     method: HOLDOUT
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     train_test_ratio: 5.0
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     random_seed: 4676
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     stratified: true
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: ACCURACY
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 0.5867393278837421
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: RANK
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 1.7043343653250773
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683454000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683463000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | solution_id: "4b0cc914-26b0-42a8-a557-2a27b2bc0059"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | internal_score: 0.5740236148955495
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scoring_configuration {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     method: HOLDOUT
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     train_test_ratio: 5.0
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     random_seed: 4676
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     stratified: true
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: ACCURACY
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 0.5740236148955495
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: RANK
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 1.7420886075949367
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683533000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683540000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | solution_id: "8f8f359d-cb5c-4556-8e16-a0f303c14791"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | internal_score: 0.5694822888283378
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scoring_configuration {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     method: HOLDOUT
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     train_test_ratio: 5.0
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     random_seed: 4676
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     stratified: true
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: ACCURACY
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 0.5694822888283378
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: RANK
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 1.7559808612440193
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683609000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683616000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | solution_id: "2db6ff2f-47a8-4f8b-8fc9-6b567ee277b5"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | internal_score: 0.5685740236148955
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scoring_configuration {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     method: HOLDOUT
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     train_test_ratio: 5.0
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     random_seed: 4676
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     stratified: true
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: ACCURACY
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 0.5685740236148955
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: RANK
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 1.758785942492013
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683721000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683740000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | solution_id: "b12eb82c-953c-4ee5-b2e3-1023c4f3b96e"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | internal_score: 0.5676657584014533
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scoring_configuration {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     method: HOLDOUT
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     train_test_ratio: 5.0
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     random_seed: 4676
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     stratified: true
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: ACCURACY
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 0.5676657584014533
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: RANK
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 1.7615999999999998
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683823000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683831000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | solution_id: "d290e573-ff19-490d-813e-662e4d83d755"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | internal_score: 0.5567665758401453
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scoring_configuration {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     method: HOLDOUT
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     train_test_ratio: 5.0
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     random_seed: 4676
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     stratified: true
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: ACCURACY
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 0.5567665758401453
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: RANK
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 1.796084828711256
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683902000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683909000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | solution_id: "564e8243-8bb8-418f-86c8-73889434c6ab"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | internal_score: 0.5277020890099909
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scoring_configuration {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     method: HOLDOUT
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     train_test_ratio: 5.0
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     random_seed: 4676
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     stratified: true
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: ACCURACY
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 0.5277020890099909
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: RANK
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 1.8950086058519793
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683975000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 683982000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | solution_id: "b90486e7-2a51-4875-94b0-8b8fd76eba8c"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | internal_score: 0.47229791099000906
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scoring_configuration {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     method: HOLDOUT
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     train_test_ratio: 5.0
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     random_seed: 4676
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     stratified: true
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: ACCURACY
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 0.47229791099000906
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: RANK
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 2.1173076923076923
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 684047000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 684053000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | solution_id: "682be59e-0e46-453d-b823-615bafcb37d0"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | internal_score: 0.4713896457765668
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scoring_configuration {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     method: HOLDOUT
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     train_test_ratio: 5.0
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     random_seed: 4676
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     stratified: true
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: ACCURACY
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 0.4713896457765668
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: RANK
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 2.121387283236994
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 684119000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 684126000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | solution_id: "fa647e97-c526-411c-aa69-5bdb0951dd1a"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | internal_score: 0.46684831970935514
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scoring_configuration {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     method: HOLDOUT
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     train_test_ratio: 5.0
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     random_seed: 4676
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     stratified: true
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: ACCURACY
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 0.46684831970935514
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: RANK
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 2.142023346303502
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 684191000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705890
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     nanos: 684198000
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | solution_id: "cd4030d7-2092-4d70-a41e-43ec74480997"
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | internal_score: 0.4014532243415077
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scoring_configuration {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     method: HOLDOUT
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     train_test_ratio: 5.0
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     random_seed: 4676
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     stratified: true
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: ACCURACY
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 0.4014532243415077
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   scores {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     metric {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       metric: RANK
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     value {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       raw {
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |         double: 2.490950226244344
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |       }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     | DONE: GetSearchSolutionsResults invoked with search_id: UNK7SCB12WK093K5VNGWEZ
+2020-02-03 04:58:10 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | ScoreSolution invoked with solution_id: ca5056e1-7c85-4966-9af2-262e548a2efa
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | GetScoreSolutionResults invoked with request_id: LWP96O7KDG795KPGWQQ8DW
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     Return search solution: {'id': '2f4f40db-7ac6-4a03-adca-d0ab8bf4edd5', 'fid': 'ca5056e1-7c85-4966-9af2-262e548a2efa', 'training_metrics': [{'metric': <PerformanceMetric.ACCURACY: 1>, 'value': 0.797576301615799, 'normalized': 0.797576301615799, 'random_seed': 0, 'column_name': 'TO_DO'}], 'cross_validation_metrics': [], 'test_metrics': [{'metric': <PerformanceMetric.ACCURACY: 1>, 'value': 0.5867393278837421, 'normalized': 0.5867393278837421, 'random_seed': 0, 'column_name': 'TO_DO', 'rank': 1.7043343653250773}], 'total_runtime': 1.6579110622406006, 'configuration': {'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'common_profiler_step': {'primitive': 'd3m.primitives.schema_discovery.profiler.Common', 'hyperparameters': {}}, 'extract_attribute_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.Common', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/PrimaryKey', 'https://metadata.datadrivendiscovery.org/types/Attribute')}}, 'extract_target_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.Common', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'encode2_step': {'primitive': 'd3m.primitives.data_cleaning.label_encoder.DSBOX', 'hyperparameters': {}}, 'to_numeric_step': {'primitive': 'd3m.primitives.data_transformation.to_numeric.DSBOX', 'hyperparameters': {}}, 'model_step': {'primitive': 'd3m.primitives.classification.random_forest.SKlearn', 'hyperparameters': {'add_index_columns': True, 'use_semantic_types': True}}}, 'ensemble_tuning_result': None, 'ensemble_tuning_metrics': None, 'template_name': 'Large_column_number_with_numerical_only_classification', 'sim_count': 1}
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     Returning 1 results
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705901
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     nanos: 148976000
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705901
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     nanos: 149001000
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   metric {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     metric: ACCURACY
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   value {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     raw {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |       double: 0.5867393278837421
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | ScoreSolution invoked with solution_id: 4b0cc914-26b0-42a8-a557-2a27b2bc0059
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | GetScoreSolutionResults invoked with request_id: K8CNXXDP0PR7I03JAZMQ51
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     Return search solution: {'id': '2303ff4c-2bab-4d8f-8ad9-16e3dda88a28', 'fid': '4b0cc914-26b0-42a8-a557-2a27b2bc0059', 'training_metrics': [{'metric': <PerformanceMetric.ACCURACY: 1>, 'value': 0.5831566192063011, 'normalized': 0.5831566192063011, 'random_seed': 0, 'column_name': 'TO_DO'}], 'cross_validation_metrics': [{'metric': 'accuracy', 'value': 0.5485300045617938, 'values': [0.548797094870631, 0.5478892419428053, 0.5668181818181818, 0.519090909090909, 0.5600545950864422], 'targets': []}], 'test_metrics': [{'metric': <PerformanceMetric.ACCURACY: 1>, 'value': 0.5740236148955495, 'normalized': 0.5740236148955495, 'random_seed': 0, 'column_name': 'TO_DO', 'rank': 1.7420886075949367}], 'total_runtime': 11.372211933135986, 'configuration': {'to_dataframe_step': {'primitive': 'd3m.primitives.data_transformation.dataset_to_dataframe.Common', 'hyperparameters': {}}, 'common_profiler_step': {'primitive': 'd3m.primitives.schema_discovery.profiler.Common', 'hyperparameters': {}}, 'extract_attribute_step': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.Common', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/PrimaryKey', 'https://metadata.datadrivendiscovery.org/types/Attribute')}}, 'profiler_step': {'primitive': 'd3m.primitives.schema_discovery.profiler.DSBOX', 'hyperparameters': {}}, 'clean_step': {'primitive': 'd3m.primitives.data_cleaning.cleaning_featurizer.DSBOX', 'hyperparameters': {}}, 'encode_step': {'primitive': 'd3m.primitives.data_preprocessing.encoder.DSBOX', 'hyperparameters': {}}, 'corex_step': {'primitive': 'd3m.primitives.feature_construction.corex_text.DSBOX', 'hyperparameters': {}}, 'to_numeric_step': {'primitive': 'd3m.primitives.data_transformation.to_numeric.DSBOX', 'hyperparameters': {}}, 'impute_step': {'primitive': 'd3m.primitives.data_preprocessing.mean_imputation.DSBOX', 'hyperparameters': {}}, 'scaler_step': {'primitive': 'd3m.primitives.data_preprocessing.do_nothing.DSBOX', 'hyperparameters': {}}, 'data': {'primitive': 'd3m.primitives.feature_extraction.pca.SKlearn', 'hyperparameters': {'use_semantic_types': True, 'add_index_columns': True, 'return_result': 'new', 'n_components': 15}}, 'pre_target': {'primitive': 'd3m.primitives.data_transformation.extract_columns_by_semantic_types.Common', 'hyperparameters': {'semantic_types': ('https://metadata.datadrivendiscovery.org/types/TrueTarget',)}}, 'target': {'primitive': 'd3m.primitives.data_transformation.to_numeric.DSBOX', 'hyperparameters': {'drop_non_numeric_columns': False}}, 'feature_selector_step': {'primitive': 'd3m.primitives.feature_selection.generic_univariate_select.SKlearn', 'hyperparameters': {'use_semantic_types': True, 'return_result': 'new', 'add_index_columns': True, 'mode': 'percentile', 'param': 75}}, 'model_step': {'primitive': 'd3m.primitives.classification.extra_trees.SKlearn', 'hyperparameters': {'use_semantic_types': True, 'return_result': 'new', 'add_index_columns': True, 'bootstrap': 'disabled', 'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10, 'max_features': 'auto', 'n_estimators': 10}}}, 'ensemble_tuning_result': None, 'ensemble_tuning_metrics': None, 'template_name': 'default_classification_template', 'sim_count': 1}
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     Returning 1 results
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | progress {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   state: COMPLETED
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   status: "Done"
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   start {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705901
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     nanos: 158528000
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   end {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     seconds: 1580705901
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     nanos: 158552000
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | scores {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   metric {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     metric: ACCURACY
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   value {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     raw {
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |       double: 0.5740236148955495
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |     }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     |   }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:21 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | FitSolution invoked with request_id ca5056e1-7c85-4966-9af2-262e548a2efa
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | solution_id: "ca5056e1-7c85-4966-9af2-262e548a2efa"
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/DA_global_terrorism/DA_global_terrorism_dataset/datasetDoc.json"
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | request_id: "KFY95LQ5YEL0B844TQJHVH"
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | GetFitSolutionResults invoked with request_id KFY95LQ5YEL0B844TQJHVH
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | Reuse fitted pipeline
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | FitSolution invoked with request_id 4b0cc914-26b0-42a8-a557-2a27b2bc0059
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | solution_id: "4b0cc914-26b0-42a8-a557-2a27b2bc0059"
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/DA_global_terrorism/DA_global_terrorism_dataset/datasetDoc.json"
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | request_id: "GZN0QF75BH9CFLMSS40WKX"
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | GetFitSolutionResults invoked with request_id GZN0QF75BH9CFLMSS40WKX
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2020-02-03 04:58:24 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:25 [INFO] dsbox.server.ta2_servicer --     | Reuse fitted pipeline
+2020-02-03 04:58:25 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | ProduceSolution invoked with request_id ca5056e1-7c85-4966-9af2-262e548a2efa
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | fitted_solution_id: "ca5056e1-7c85-4966-9af2-262e548a2efa"
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/DA_global_terrorism/DA_global_terrorism_dataset/datasetDoc.json"
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | GetProduceSolutionResults invoked with request_id VOTE2S7ESNQDSV7FHR4QGH
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | ProduceSolution invoked with request_id 4b0cc914-26b0-42a8-a557-2a27b2bc0059
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | fitted_solution_id: "4b0cc914-26b0-42a8-a557-2a27b2bc0059"
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/DA_global_terrorism/DA_global_terrorism_dataset/datasetDoc.json"
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | GetProduceSolutionResults invoked with request_id MUSQQ71QL2V0ICZ9KFQPZL
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2020-02-03 04:58:28 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | FitSolution invoked with request_id ca5056e1-7c85-4966-9af2-262e548a2efa
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | solution_id: "ca5056e1-7c85-4966-9af2-262e548a2efa"
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/DA_global_terrorism/DA_global_terrorism_dataset/datasetDoc.json"
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | request_id: "A34AXQQMK8QFD7SBMF0BWW"
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | GetFitSolutionResults invoked with request_id A34AXQQMK8QFD7SBMF0BWW
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | Reuse fitted pipeline
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | FitSolution invoked with request_id 4b0cc914-26b0-42a8-a557-2a27b2bc0059
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | solution_id: "4b0cc914-26b0-42a8-a557-2a27b2bc0059"
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/DA_global_terrorism/DA_global_terrorism_dataset/datasetDoc.json"
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | request_id: "TV1YOQBNDCWHMT00S5S1HW"
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | GetFitSolutionResults invoked with request_id TV1YOQBNDCWHMT00S5S1HW
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     | Reuse fitted pipeline
+2020-02-03 04:58:40 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | ProduceSolution invoked with request_id ca5056e1-7c85-4966-9af2-262e548a2efa
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | fitted_solution_id: "ca5056e1-7c85-4966-9af2-262e548a2efa"
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/DA_global_terrorism/DA_global_terrorism_dataset/datasetDoc.json"
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | GetProduceSolutionResults invoked with request_id 4720AGUEEVIBE23G0QVT3N
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | ProduceSolution invoked with request_id 4b0cc914-26b0-42a8-a557-2a27b2bc0059
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | fitted_solution_id: "4b0cc914-26b0-42a8-a557-2a27b2bc0059"
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | inputs {
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     |   dataset_uri: "file:///input/DA_global_terrorism/DA_global_terrorism_dataset/datasetDoc.json"
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | }
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | expose_outputs: "outputs.0"
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | expose_value_types: CSV_URI
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | GetProduceSolutionResults invoked with request_id PDCJMB1N6O92DPI65MGL5G
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     \_____________
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     | Added true target
+2020-02-03 04:58:45 [INFO] dsbox.server.ta2_servicer --     \_____________
