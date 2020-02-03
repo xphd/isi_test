@@ -1,0 +1,12 @@
+{
+    "pipeline_rank": 18490.855762329888,
+    "metric": "meanAbsoluteError",
+    "metric_value": 18490.855762329888,
+    "template_name": "regression_with_feature_selection",
+    "template_task": "REGRESSION",
+    "template_subtask": "{'MULTIVARIATE', 'UNIVARIATE'}",
+    "problem_task_keywords": [
+        "regression",
+        "univariate"
+    ]
+}

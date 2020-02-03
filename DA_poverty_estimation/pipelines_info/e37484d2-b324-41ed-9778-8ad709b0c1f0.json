@@ -1,0 +1,26 @@
+{
+    "pipeline_rank": 13473.777113486316,
+    "metric": "meanAbsoluteError",
+    "metric_value": 13473.777113486316,
+    "cross_validation": [
+        {
+            "metric": "meanAbsoluteError",
+            "value": 13109.167179869202,
+            "values": [
+                14925.421462270206,
+                13232.690614921776,
+                10668.235430522049,
+                12423.610788683649,
+                14295.877602948342
+            ],
+            "targets": []
+        }
+    ],
+    "template_name": "gradient_boosting_regression_template",
+    "template_task": "REGRESSION",
+    "template_subtask": "{'MULTIVARIATE', 'UNIVARIATE', 'NONE'}",
+    "problem_task_keywords": [
+        "regression",
+        "univariate"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "pipeline_rank": 11317.063695048828,
+    "metric": "meanAbsoluteError",
+    "metric_value": 11317.063695048828,
+    "cross_validation": [
+        {
+            "metric": "meanAbsoluteError",
+            "value": 12316.409860605945,
+            "values": [
+                14137.110113674475,
+                14879.145373897953,
+                14254.00533697628,
+                11134.35032845999,
+                10304.99895170488,
+                8118.977987445849,
+                13233.071684365093,
+                10265.256656073438,
+                14598.647685242573,
+                12238.534488218933
+            ],
+            "targets": []
+        }
+    ],
+    "template_name": "dsbox_regression_template",
+    "template_task": "REGRESSION",
+    "template_subtask": "{'MULTIVARIATE', 'UNIVARIATE', 'NONE'}",
+    "problem_task_keywords": [
+        "regression",
+        "univariate"
+    ]
+}

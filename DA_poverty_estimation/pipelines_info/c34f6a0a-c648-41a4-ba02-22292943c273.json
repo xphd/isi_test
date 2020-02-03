@@ -1,0 +1,26 @@
+{
+    "pipeline_rank": 13989.14293023451,
+    "metric": "meanAbsoluteError",
+    "metric_value": 13989.14293023451,
+    "cross_validation": [
+        {
+            "metric": "meanAbsoluteError",
+            "value": 13355.692059555236,
+            "values": [
+                15473.68820200655,
+                13060.223640987413,
+                10768.906819080492,
+                12427.54688247497,
+                15048.094753226762
+            ],
+            "targets": []
+        }
+    ],
+    "template_name": "default_text_regression_template",
+    "template_task": "REGRESSION",
+    "template_subtask": "{'MULTIVARIATE', 'UNIVARIATE'}",
+    "problem_task_keywords": [
+        "regression",
+        "univariate"
+    ]
+}

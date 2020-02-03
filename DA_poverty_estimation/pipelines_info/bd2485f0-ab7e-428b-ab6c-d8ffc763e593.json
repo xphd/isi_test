@@ -1,0 +1,12 @@
+{
+    "pipeline_rank": 14109.97261146497,
+    "metric": "meanAbsoluteError",
+    "metric_value": 14109.97261146497,
+    "template_name": "Large_column_number_with_numerical_only_regression",
+    "template_task": "REGRESSION",
+    "template_subtask": "{'MULTIVARIATE', 'UNIVARIATE'}",
+    "problem_task_keywords": [
+        "regression",
+        "univariate"
+    ]
+}
