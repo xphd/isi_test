@@ -1,0 +1,27 @@
+{
+    "pipeline_rank": 3.161157024793388,
+    "metric": "f1Macro",
+    "metric_value": 0.3163398692810458,
+    "cross_validation": [
+        {
+            "metric": "f1Macro",
+            "value": 0.3165942939816602,
+            "values": [
+                0.31702544031311153,
+                0.31426692965154507,
+                0.31357048748353095,
+                0.31702544031311153,
+                0.32108317214700194
+            ],
+            "targets": []
+        }
+    ],
+    "template_name": "TA1Classification_3",
+    "template_task": "CLASSIFICATION",
+    "template_subtask": "{'MULTICLASS', 'BINARY'}",
+    "problem_task_keywords": [
+        "classification",
+        "multiClass",
+        "tabular"
+    ]
+}

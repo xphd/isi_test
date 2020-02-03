@@ -1,0 +1,27 @@
+{
+    "pipeline_rank": 1.4170230520496507,
+    "metric": "f1Macro",
+    "metric_value": 0.7057048214942951,
+    "cross_validation": [
+        {
+            "metric": "f1Macro",
+            "value": 0.522507023283125,
+            "values": [
+                0.6293982677591594,
+                0.5076599326599327,
+                0.46558265582655833,
+                0.5401866578307931,
+                0.4697076023391813
+            ],
+            "targets": []
+        }
+    ],
+    "template_name": "naive_bayes_classification_template",
+    "template_task": "CLASSIFICATION",
+    "template_subtask": "{'MULTICLASS', 'BINARY'}",
+    "problem_task_keywords": [
+        "classification",
+        "multiClass",
+        "tabular"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "pipeline_rank": 1.235512678443387,
+    "metric": "f1Macro",
+    "metric_value": 0.809380605676902,
+    "cross_validation": [
+        {
+            "metric": "f1Macro",
+            "value": 0.6510687842955258,
+            "values": [
+                0.713630229419703,
+                0.6227513227513227,
+                0.6424972617743703,
+                0.6289774482545567,
+                0.5887667887667888,
+                0.6750154607297465,
+                0.5990629183400268,
+                0.710204081632653,
+                0.6820861678004535,
+                0.6476961634856372
+            ],
+            "targets": []
+        }
+    ],
+    "template_name": "dsbox_classification_template",
+    "template_task": "CLASSIFICATION",
+    "template_subtask": "{'MULTICLASS', 'BINARY'}",
+    "problem_task_keywords": [
+        "classification",
+        "multiClass",
+        "tabular"
+    ]
+}
